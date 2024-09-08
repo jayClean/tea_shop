@@ -1,0 +1,20 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment variable files
+.env
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore migrations files (if desired)
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignore static and media files if they are generated dynamically
+/static/
+/media/
